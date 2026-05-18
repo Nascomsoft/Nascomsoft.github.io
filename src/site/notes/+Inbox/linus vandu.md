@@ -13,7 +13,7 @@ views:
     name: This Week's Tasks
     filters:
       and:
-        - note["assigned-to"] == ["[[linus vandu]]"]
+        - file.links.contains(link("linus vandu"))
     order:
       - file.name
       - related-project
