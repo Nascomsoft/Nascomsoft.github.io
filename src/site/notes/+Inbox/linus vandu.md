@@ -7,12 +7,13 @@
 filters:
   and:
     - file.tags.contains("task")
+    - '!file.name.contains("template")'
 views:
   - type: table
     name: This Week's Tasks
     filters:
       and:
-        - file.hasLink(this.file.name)
+        - note["assigned-to"] == ["[[linus vandu]]"]
     order:
       - file.name
       - related-project
