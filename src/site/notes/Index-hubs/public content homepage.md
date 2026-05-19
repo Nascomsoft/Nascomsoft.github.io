@@ -3,7 +3,8 @@
 ---
 
 ---
->[!info] Visit the [[+Inbox/knowledge-base hub\|knowledge base]] to find information
+>[!info] Quick-Links
+>- Visit the [[+Inbox/knowledge-base hub\|knowledge base]] to find information
 
 ### Project Tasks 
 ---
