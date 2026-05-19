@@ -2,13 +2,12 @@
 {"dg-publish":true,"permalink":"/index-hubs/project-portfolio/","tags":["index-note"],"dg-note-properties":{"aliases":["project hub"],"dateCreated":"Mon, 11-05-2026, 12:02 PM","tags":["index-note"],"banner":"![System_Meta/Images/Project board.png](/img/user/System_Meta/Images/Project%20board.png)","cssclasses":["mid-view"],"banner-x":49,"banner-y":36,"emblem":"🌍","title":null}}
 ---
 
->[!navigation] Go to [[Homepage\|homepage]]
->
+<< [[Homepage\|Homepage]]
+
 ---
 
-[list2tab]
-- Contracts
-	
+>[!info] Contracts
+>
 ```base
 filters:
   and:
@@ -114,8 +113,10 @@ views:
 
 ```
 
-- Prospects
-	
+
+---
+>[!tip]- Prospects
+>
 ```base
 filters:
   and:
@@ -160,3 +161,5 @@ views:
 
 ```
 
+
+---
