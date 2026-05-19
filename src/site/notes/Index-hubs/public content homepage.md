@@ -4,7 +4,7 @@
 
 ---
 >[!info] Quick-Links
->- Visit the [[+Inbox/knowledge-base hub\|knowledge base]] to find information
+>- Visit the [[Index-hubs/knowledge-base hub\|knowledge base]] to find information
 
 ### Project Tasks 
 ---
