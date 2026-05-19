@@ -8,7 +8,7 @@
 - [[obsidian\|how to use obsidian]]
 - 
 ### Research
-- [[Knowledge-wiki/Documentation/Research/journal and manuscript publication guide\|journal and manuscript publication guide]]
+- [[Documentation/Research/journal and manuscript publication guide\|journal and manuscript publication guide]]
 - 
 ### 3D printing
 - 
