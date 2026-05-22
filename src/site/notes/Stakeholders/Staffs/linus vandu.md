@@ -1,66 +1,84 @@
 ---
-{"dg-publish":true,"permalink":"/stakeholders/staffs/linus-vandu/","tags":["staff"],"dg-note-properties":{"aliases":null,"dateCreated":"Mon, 18-05-2026, 12:25 PM","tags":["staff"],"cssclasses":["mid-view"],"title":null}}
+{"dg-publish":true,"permalink":"/stakeholders/staffs/linus-vandu/","tags":["people/staff"],"dg-note-properties":{"aliases":null,"dateCreated":"Mon, 18-05-2026, 12:25 PM","tags":["people/staff"],"contact-info":"[[linus vandu contact information]]]","cssclasses":["mid-view"],"title":null}}
 ---
 
 
 ```base
 filters:
   and:
-    - file.tags.contains("task")
+    - file.tags.contains("task/staff")
     - '!file.name.contains("template")'
 views:
   - type: table
-    name: This Week's Tasks
+    name: Current Week Todo's
     filters:
       and:
-        - file.links.contains(link("linus vandu"))
+        - completed == false
+        - week == "W21-2026"
+    groupBy:
+      property: related-project
+      direction: ASC
     order:
+      - completed
       - file.name
-      - related-project
       - status
-      - due-date
+      - assigned-to
       - assigned-date
+      - due-date
+      - completion-date
       - dependency
+    sort: []
     columnSize:
-      file.name: 365
+      file.name: 422
+      note.status: 126
       note.due-date: 158
       note.assigned-date: 193
-      note.status: 126
   - type: table
-    name: Todo
+    name: All TODO'S
     filters:
       and:
-        - file.hasLink(this.file.name)
+        - completed == false
+    groupBy:
+      property: related-project
+      direction: ASC
     order:
+      - completed
       - file.name
-      - due-date
-      - assigned-date
       - status
+      - assigned-to
+      - assigned-date
+      - due-date
+      - completion-date
       - dependency
     columnSize:
-      file.name: 365
+      file.name: 422
+      note.status: 126
       note.due-date: 158
       note.assigned-date: 193
   - type: table
     name: In-progress
     filters:
       and:
-        - file.hasLink(this.file.name)
+        - status == ["in-progress"]
+    groupBy:
+      property: related-project
+      direction: ASC
     order:
+      - completed
       - file.name
-      - due-date
-      - assigned-date
       - status
+      - assigned-to
+      - assigned-date
+      - due-date
+      - completion-date
       - dependency
     columnSize:
-      file.name: 365
+      file.name: 422
+      note.status: 126
       note.due-date: 158
       note.assigned-date: 193
   - type: table
     name: Completed
-    filters:
-      and:
-        - file.hasLink(this.file.name)
     order:
       - file.name
       - due-date
@@ -99,6 +117,167 @@ views:
       - dependency
     columnSize:
       file.name: 365
+      note.due-date: 158
+      note.assigned-date: 193
+  - type: table
+    name: Linus Vandu
+    filters:
+      and:
+        - completed == false
+        - note["assigned-to"].contains(link("linus vandu"))
+    groupBy:
+      property: related-project
+      direction: ASC
+    order:
+      - completed
+      - file.name
+      - status
+      - due-date
+      - assigned-date
+      - completion-date
+      - dependency
+    sort: []
+    columnSize:
+      file.name: 422
+      note.status: 126
+      note.due-date: 158
+      note.assigned-date: 193
+  - type: table
+    name: Yohanna
+    filters:
+      and:
+        - completed == false
+        - note["assigned-to"].contains(link("yohanna"))
+    groupBy:
+      property: related-project
+      direction: ASC
+    order:
+      - completed
+      - file.name
+      - status
+      - due-date
+      - assigned-date
+      - completion-date
+      - dependency
+    sort: []
+    columnSize:
+      file.name: 422
+      note.status: 126
+      note.due-date: 158
+      note.assigned-date: 193
+  - type: table
+    name: Munir
+    filters:
+      and:
+        - completed == false
+        - note["assigned-to"].contains(link("yohanna"))
+    groupBy:
+      property: related-project
+      direction: ASC
+    order:
+      - completed
+      - file.name
+      - status
+      - due-date
+      - assigned-date
+      - completion-date
+      - dependency
+    sort: []
+    columnSize:
+      file.name: 422
+      note.status: 126
+      note.due-date: 158
+      note.assigned-date: 193
+  - type: table
+    name: Loveth
+    filters:
+      and:
+        - completed == false
+        - note["assigned-to"].contains(link("yohanna"))
+    groupBy:
+      property: related-project
+      direction: ASC
+    order:
+      - completed
+      - file.name
+      - status
+      - due-date
+      - assigned-date
+      - completion-date
+      - dependency
+    sort: []
+    columnSize:
+      file.name: 422
+      note.status: 126
+      note.due-date: 158
+      note.assigned-date: 193
+  - type: table
+    name: Kaseem Garba
+    filters:
+      and:
+        - completed == false
+        - note["assigned-to"].contains(link("yohanna"))
+    groupBy:
+      property: related-project
+      direction: ASC
+    order:
+      - completed
+      - file.name
+      - status
+      - due-date
+      - assigned-date
+      - completion-date
+      - dependency
+    sort: []
+    columnSize:
+      file.name: 422
+      note.status: 126
+      note.due-date: 158
+      note.assigned-date: 193
+  - type: table
+    name: Kaseem
+    filters:
+      and:
+        - completed == false
+        - note["assigned-to"].contains(link("yohanna"))
+    groupBy:
+      property: related-project
+      direction: ASC
+    order:
+      - completed
+      - file.name
+      - status
+      - due-date
+      - assigned-date
+      - completion-date
+      - dependency
+    sort: []
+    columnSize:
+      file.name: 422
+      note.status: 126
+      note.due-date: 158
+      note.assigned-date: 193
+  - type: table
+    name: CEO
+    filters:
+      and:
+        - completed == false
+        - note["assigned-to"].contains(link("yohanna"))
+    groupBy:
+      property: related-project
+      direction: ASC
+    order:
+      - completed
+      - file.name
+      - status
+      - due-date
+      - assigned-date
+      - completion-date
+      - dependency
+    sort: []
+    columnSize:
+      file.name: 422
+      note.status: 126
       note.due-date: 158
       note.assigned-date: 193
 
