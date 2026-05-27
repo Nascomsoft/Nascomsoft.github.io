@@ -10,7 +10,7 @@
 ### Tasks
 ---
 > [!fail]- 📋 Todo
->  | Task                                                                    | Assigned To                                                            | Project                                                                                                                      | Assigned     | Due          |
+>  | Task                                                                    | To                                                                     | Project                                                                                                                      | Assigned     | Due          |
 > | ----------------------------------------------------------------------- | ---------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------- | ------------ | ------------ |
 > | [[All-Tasks/program code for project 4\|program code for project 4]] | <ul><li>[[Stakeholders/Staffs/linus vandu.md\\|linus vandu]]</li></ul> | [[All-Projects/project 4 - low cost hybrid guided 4DoF robotic arm\|project 4 - low cost hybrid guided 4DoF robotic arm]] | May 18, 2026 | May 22, 2026 |
 > 
@@ -18,14 +18,14 @@
 
 ---
 > [!info]- 🔄 In Progress
->  | Task | Assigned To | Project | Assigned | Due |
-> | ---- | ----------- | ------- | -------- | --- |
+>  | Task | To | Project | Assigned | Due |
+> | ---- | -- | ------- | -------- | --- |
 > 
 { .block-language-dataview}
 
 ---
 > [!success]- ✅ Completed
->  | Task                                                                                                              | Assigned To                         | Project                                                                                                                      | Assigned     | Due          |
+>  | Task                                                                                                              | To                                  | Project                                                                                                                      | Assigned     | Due          |
 > | ----------------------------------------------------------------------------------------------------------------- | ----------------------------------- | ---------------------------------------------------------------------------------------------------------------------------- | ------------ | ------------ |
 > | [[All-Tasks/fabrication of robotic arm casing for project 4\|fabrication of robotic arm casing for project 4]] | <ul><li>[[Sabui\\|Sabui]]</li></ul> | [[All-Projects/project 4 - low cost hybrid guided 4DoF robotic arm\|project 4 - low cost hybrid guided 4DoF robotic arm]] | May 18, 2026 | May 22, 2026 |
 > 
