@@ -3,12 +3,30 @@ body {
   --dg-sidebar-max-width: 220px;
   --dg-sidebar-gap: 24px;
   --dg-filetree-gap: 40px;
-  --dg-graph-width: 200px;
-  --dg-graph-height: 200px;
+  --dg-graph-width: 180px;
+  --dg-graph-height: 180px;
 }
 
 @media (max-width: 1400px) {
   .content {
-    max-width: calc(100vw - var(--dg-filetree-width) - 80px);
+    max-width: calc(100vw - var(--dg-filetree-width) - 80px) !important;
+  }
+
+  .sidebar {
+    position: fixed !important;
+    left: auto !important;
+    right: 16px !important;
+    top: var(--dg-sidebar-top) !important;
+    max-width: 200px !important;
+    margin: 0 !important;
+  }
+
+  .sidebar-container {
+    flex-direction: column !important;
+    height: var(--dg-sidebar-container-height) !important;
+  }
+
+  .toc {
+    display: block !important;
   }
 }
