@@ -9,7 +9,7 @@ filters:
     - file.tags.contains("task/staff")
     - '!file.name.contains("template")'
 views:
-  - type: table
+  - type: cards
     name: Current Week Todo's
     filters:
       and:
