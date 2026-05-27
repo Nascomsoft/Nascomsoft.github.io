@@ -1,13 +1,14 @@
 body {
-  /* Widen the main content area */
-  --dg-content-max-width: 1000px;
-
-  /* Reduce the gap between content and right sidebar */
+body {
+  --dg-content-max-width: 900px;
+  --dg-sidebar-max-width: 260px;
   --dg-sidebar-gap: 40px;
-
-  /* Tighten the right sidebar width */
-  --dg-sidebar-max-width: 280px;
-
-  /* Reduce the gap between filetree and content */
   --dg-filetree-gap: 40px;
+}
+
+@media (max-width: 1400px) {
+  .content {
+    max-width: calc(100vw - var(--dg-filetree-width) - 80px);
+  }
+}
 }
