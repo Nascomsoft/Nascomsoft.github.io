@@ -1,12 +1,1 @@
-body {
-  --dg-content-max-width: 1200px;
-  --dg-sidebar-max-width: 100px;
-  --dg-sidebar-gap: 40px;
-  --dg-filetree-gap: 40px;
-}
 
-@media (max-width: 1400px) {
-  .content {
-    max-width: calc(100vw - var(--dg-filetree-width) - 100px);
-  }
-}
