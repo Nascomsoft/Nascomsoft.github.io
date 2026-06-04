@@ -9,9 +9,10 @@
 ### Assigned tasks
 
 > [!fail] 📋 Todo
-> | Task                                                                    | To                                                                     | Project                                                                                                                      | Assigned     | Due          |
-> | ----------------------------------------------------------------------- | ---------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------- | ------------ | ------------ |
-> | [[All-Tasks/program code for project 4\|program code for project 4]] | <ul><li>[[Stakeholders/Staffs/linus vandu.md\\|linus vandu]]</li></ul> | [[All-Projects/project 4 - low cost hybrid guided 4DoF robotic arm\|project 4 - low cost hybrid guided 4DoF robotic arm]] | May 18, 2026 | May 22, 2026 |
+> | Task                                                                                                              | State     | Assigned     | To                                                                     | Due          |
+> | ----------------------------------------------------------------------------------------------------------------- | --------- | ------------ | ---------------------------------------------------------------------- | ------------ |
+> | [[All-Tasks/program code for project 4\|program code for project 4]]                                           | todo      | May 18, 2026 | <ul><li>[[Stakeholders/Staffs/linus vandu.md\\|linus vandu]]</li></ul> | May 22, 2026 |
+> | [[All-Tasks/fabrication of robotic arm casing for project 4\|fabrication of robotic arm casing for project 4]] | completed | May 18, 2026 | <ul><li>[[Sabui\\|Sabui]]</li></ul>                                    | May 22, 2026 |
 > 
 { .block-language-dataview}
 
