@@ -8,11 +8,11 @@
 ---
 ### Assigned tasks
 
-> [!fail] 📋 Todo
-> | Task                                                                                                              | State     | Assigned     | To                                                                     | Due          |
-> | ----------------------------------------------------------------------------------------------------------------- | --------- | ------------ | ---------------------------------------------------------------------- | ------------ |
-> | [[All-Tasks/program code for project 4\|program code for project 4]]                                           | todo      | May 18, 2026 | <ul><li>[[Stakeholders/Staffs/linus vandu.md\\|linus vandu]]</li></ul> | May 22, 2026 |
-> | [[All-Tasks/fabrication of robotic arm casing for project 4\|fabrication of robotic arm casing for project 4]] | completed | May 18, 2026 | <ul><li>[[Sabui\\|Sabui]]</li></ul>                                    | May 22, 2026 |
+> [!fail]- 📋 Todo
+> | Task                                                                                                              | State     | Assigned     | To                                                                     | Due          | Done         |
+> | ----------------------------------------------------------------------------------------------------------------- | --------- | ------------ | ---------------------------------------------------------------------- | ------------ | ------------ |
+> | [[All-Tasks/program code for project 4\|program code for project 4]]                                           | todo      | May 18, 2026 | <ul><li>[[Stakeholders/Staffs/linus vandu.md\\|linus vandu]]</li></ul> | May 22, 2026 | \-           |
+> | [[All-Tasks/fabrication of robotic arm casing for project 4\|fabrication of robotic arm casing for project 4]] | completed | May 18, 2026 | <ul><li>[[Sabui\\|Sabui]]</li></ul>                                    | May 22, 2026 | May 21, 2026 |
 > 
 { .block-language-dataview}
 
