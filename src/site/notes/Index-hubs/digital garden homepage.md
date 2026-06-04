@@ -9,7 +9,7 @@
 
 ### Tasks
 ---
-> [!fail]- 📋 Todo
+> [!fail] 📋 Todo
 >  | Task                                                                    | To                                                                     | Project                                                                                                                      | Assigned     | Due          |
 > | ----------------------------------------------------------------------- | ---------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------- | ------------ | ------------ |
 > | [[All-Tasks/program code for project 4\|program code for project 4]] | <ul><li>[[Stakeholders/Staffs/linus vandu.md\\|linus vandu]]</li></ul> | [[All-Projects/project 4 - low cost hybrid guided 4DoF robotic arm\|project 4 - low cost hybrid guided 4DoF robotic arm]] | May 18, 2026 | May 22, 2026 |
@@ -17,7 +17,7 @@
 { .block-language-dataview}
 
 ---
-> [!info]- 🔄 In Progress
+> [!info] 🔄 In Progress
 >  | Task | To | Project | Assigned | Due |
 > | ---- | -- | ------- | -------- | --- |
 > 

@@ -3,3 +3,17 @@
 ---
 
 
+>[!info] view project documentation
+
+---
+### Assigned tasks
+
+> [!example] 📋 Efforts
+> | Task | State | Assigned | To | Due | Done |
+> | ---- | ----- | -------- | -- | --- | ---- |
+> 
+{ .block-language-dataview}
+
+---
+### Notes
+

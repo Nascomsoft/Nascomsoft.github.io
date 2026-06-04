@@ -9,7 +9,7 @@ filters:
     - file.tags.contains("task/staff")
     - '!file.name.contains("template")'
 views:
-  - type: cards
+  - type: table
     name: Current Week Todo's
     filters:
       and:
@@ -38,6 +38,7 @@ views:
     filters:
       and:
         - completed == false
+        - file.hasLink(this.file.name)
     groupBy:
       property: related-project
       direction: ASC
@@ -51,10 +52,11 @@ views:
       - completion-date
       - dependency
     columnSize:
+      note.completed: 108
       file.name: 422
       note.status: 126
-      note.due-date: 158
       note.assigned-date: 193
+      note.due-date: 158
   - type: table
     name: In-progress
     filters:
