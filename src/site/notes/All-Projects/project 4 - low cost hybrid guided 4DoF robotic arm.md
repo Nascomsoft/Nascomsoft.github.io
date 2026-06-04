@@ -8,7 +8,7 @@
 ---
 ### Assigned tasks
 
-> [!fail]- 📋 Todo
+> [!example] 📋 Efforts
 > | Task                                                                                                              | State     | Assigned     | To                                                                     | Due          | Done         |
 > | ----------------------------------------------------------------------------------------------------------------- | --------- | ------------ | ---------------------------------------------------------------------- | ------------ | ------------ |
 > | [[All-Tasks/program code for project 4\|program code for project 4]]                                           | todo      | May 18, 2026 | <ul><li>[[Stakeholders/Staffs/linus vandu.md\\|linus vandu]]</li></ul> | May 22, 2026 | \-           |
@@ -17,74 +17,4 @@
 { .block-language-dataview}
 
 ---
-
-```base
-filters:
-  and:
-    - file.tags.contains("task")
-    - '!file.name.contains("template")'
-views:
-  - type: table
-    name: Todo's
-    filters:
-      and:
-        - completed == false
-        - file.hasLink(this.file.name)
-    groupBy:
-      property: due-date
-      direction: ASC
-    order:
-      - completed
-      - file.name
-      - status
-      - assigned-to
-      - assigned-date
-      - due-date
-      - completion-date
-      - dependency
-    sort:
-      - property: due-date
-        direction: DESC
-    columnSize:
-      note.completed: 115
-      file.name: 265
-      note.status: 118
-      note.assigned-to: 226
-      note.assigned-date: 182
-      note.due-date: 195
-    markers: none
-    kanbanViewId: 3ba4081a-a1b5-4e53-ac55-35acbfd95739
-  - type: table
-    name: Completed
-    filters:
-      and:
-        - completed == true
-        - file.hasLink(this.file.name)
-    groupBy:
-      property: assigned-date
-      direction: ASC
-    order:
-      - completed
-      - file.name
-      - status
-      - assigned-to
-      - assigned-date
-      - due-date
-      - completion-date
-      - dependency
-    sort:
-      - property: due-date
-        direction: DESC
-    columnSize:
-      note.completed: 115
-      file.name: 388
-      note.status: 118
-      note.assigned-to: 226
-      note.assigned-date: 182
-      note.due-date: 195
-    markers: none
-    kanbanViewId: 3ba4081a-a1b5-4e53-ac55-35acbfd95739
-
-```
-
-
+### Notes
