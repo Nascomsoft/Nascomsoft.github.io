@@ -3,7 +3,7 @@
 ---
 
 
->[!info] view project documentation
+>[!info] view project [[+Inbox/project 1 notes\|notes]] and [[project 1 documentation\|documentation]]
 
 ---
 ### Assigned tasks
@@ -15,9 +15,5 @@
 { .block-language-dataview}
 
 ---
-### Notes
-- [ ] share progress update on [[All-Projects/project 1 - IOT based infact incubator with remote monitoring\|project 1 - IOT based infact incubator with remote monitoring]] every 2weeks #task/checklist 
 
-### Project logs
-- half payment - 19-05-2026, Tuesday
 
