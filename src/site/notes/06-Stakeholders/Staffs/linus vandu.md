@@ -7,25 +7,21 @@ filters:
   and:
     - file.tags.contains("task/staff")
     - '!file.name.contains("template")'
-    - note["assigned-to"].contains(link("linus vandu"))
+    - note["assigned-to"].contains("linus vandu")
 views:
   - type: cards
     name: Todo's
     filters:
       and:
         - completed == false
-        - file.hasLink(this.file.name)
+        - status == "todo"
     groupBy:
       property: related-project
       direction: ASC
     order:
-      - completed
       - file.name
-      - status
-      - assigned-to
       - assigned-date
       - due-date
-      - completion-date
       - dependency
     columnSize:
       note.completed: 108
@@ -33,70 +29,104 @@ views:
       note.status: 126
       note.assigned-date: 193
       note.due-date: 158
-  - type: table
+  - type: cards
     name: In-progress
     filters:
       and:
-        - status == ["in-progress"]
+        - completed == false
+        - status == "in-progress"
     groupBy:
       property: related-project
       direction: ASC
     order:
-      - completed
       - file.name
-      - status
-      - assigned-to
+      - assigned-date
+      - due-date
+      - dependency
+      - completed
+    columnSize:
+      note.completed: 108
+      file.name: 422
+      note.status: 126
+      note.assigned-date: 193
+      note.due-date: 158
+  - type: cards
+    name: Completed
+    filters:
+      and:
+        - completed == true
+    groupBy:
+      property: related-project
+      direction: ASC
+    order:
+      - file.name
       - assigned-date
       - due-date
       - completion-date
-      - dependency
     columnSize:
+      note.completed: 108
       file.name: 422
       note.status: 126
-      note.due-date: 158
       note.assigned-date: 193
-  - type: table
-    name: Completed
+      note.due-date: 158
+  - type: cards
+    name: Closed
+    filters:
+      and:
+        - completed == true
+        - status == "closed"
+    groupBy:
+      property: related-project
+      direction: ASC
     order:
       - file.name
-      - due-date
       - assigned-date
-      - status
-      - dependency
+      - due-date
+      - completion-date
     columnSize:
-      file.name: 365
-      note.due-date: 158
+      note.completed: 108
+      file.name: 422
+      note.status: 126
       note.assigned-date: 193
-  - type: table
+      note.due-date: 158
+  - type: cards
     name: Paused
     filters:
       and:
-        - file.hasLink(this.file.name)
+        - status == "paused"
+    groupBy:
+      property: related-project
+      direction: ASC
     order:
       - file.name
-      - due-date
       - assigned-date
-      - status
+      - due-date
       - dependency
     columnSize:
-      file.name: 365
-      note.due-date: 158
+      note.completed: 108
+      file.name: 422
+      note.status: 126
       note.assigned-date: 193
-  - type: table
+      note.due-date: 158
+  - type: cards
     name: Abandoned
     filters:
       and:
-        - file.hasLink(this.file.name)
+        - status == "abandoned"
+    groupBy:
+      property: related-project
+      direction: ASC
     order:
       - file.name
-      - due-date
       - assigned-date
-      - status
+      - due-date
       - dependency
     columnSize:
-      file.name: 365
-      note.due-date: 158
+      note.completed: 108
+      file.name: 422
+      note.status: 126
       note.assigned-date: 193
+      note.due-date: 158
 
 ```
 
@@ -106,9 +136,9 @@ views:
 
 
 
-| Task                                                                   | To                                                                        |
-| ---------------------------------------------------------------------- | ------------------------------------------------------------------------- |
-| [[03-Tasks/program code for project 4\|program code for project 4]] | <ul><li>[[06-Stakeholders/Staffs/linus vandu.md\\|linus vandu]]</li></ul> |
+| Task                                                                   | To          |
+| ---------------------------------------------------------------------- | ----------- |
+| [[03-Tasks/program code for project 4\|program code for project 4]] | linus vandu |
 
 { .block-language-dataview}
 
