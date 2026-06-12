@@ -7,33 +7,10 @@ filters:
   and:
     - file.tags.contains("task/staff")
     - '!file.name.contains("template")'
+    - note["assigned-to"].contains(link("linus vandu"))
 views:
   - type: cards
-    name: Current Week Todo's
-    filters:
-      and:
-        - completed == false
-        - week == "W21-2026"
-    groupBy:
-      property: related-project
-      direction: ASC
-    order:
-      - completed
-      - file.name
-      - status
-      - assigned-to
-      - assigned-date
-      - due-date
-      - completion-date
-      - dependency
-    sort: []
-    columnSize:
-      file.name: 422
-      note.status: 126
-      note.due-date: 158
-      note.assigned-date: 193
-  - type: table
-    name: All TODO'S
+    name: Todo's
     filters:
       and:
         - completed == false
@@ -118,29 +95,6 @@ views:
       - dependency
     columnSize:
       file.name: 365
-      note.due-date: 158
-      note.assigned-date: 193
-  - type: cards
-    name: Linus Vandu
-    filters:
-      and:
-        - completed == false
-        - note["assigned-to"].contains(link("linus vandu"))
-    groupBy:
-      property: related-project
-      direction: ASC
-    order:
-      - file.name
-      - status
-      - due-date
-      - assigned-date
-      - dependency
-      - completed
-      - completion-date
-    sort: []
-    columnSize:
-      file.name: 422
-      note.status: 126
       note.due-date: 158
       note.assigned-date: 193
 
