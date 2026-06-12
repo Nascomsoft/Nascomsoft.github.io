@@ -120,7 +120,7 @@ views:
       file.name: 365
       note.due-date: 158
       note.assigned-date: 193
-  - type: table
+  - type: cards
     name: Linus Vandu
     filters:
       and:
@@ -130,158 +130,22 @@ views:
       property: related-project
       direction: ASC
     order:
-      - completed
       - file.name
       - status
       - due-date
       - assigned-date
-      - completion-date
       - dependency
+      - completed
+      - completion-date
     sort: []
     columnSize:
       file.name: 422
       note.status: 126
       note.due-date: 158
       note.assigned-date: 193
-  - type: table
-    name: Yohanna
-    filters:
-      and:
-        - completed == false
-        - note["assigned-to"].contains(link("yohanna"))
-    groupBy:
-      property: related-project
-      direction: ASC
-    order:
-      - completed
-      - file.name
-      - status
-      - due-date
-      - assigned-date
-      - completion-date
-      - dependency
-    sort: []
-    columnSize:
-      file.name: 422
-      note.status: 126
-      note.due-date: 158
-      note.assigned-date: 193
-  - type: table
-    name: Munir
-    filters:
-      and:
-        - completed == false
-        - note["assigned-to"].contains(link("yohanna"))
-    groupBy:
-      property: related-project
-      direction: ASC
-    order:
-      - completed
-      - file.name
-      - status
-      - due-date
-      - assigned-date
-      - completion-date
-      - dependency
-    sort: []
-    columnSize:
-      file.name: 422
-      note.status: 126
-      note.due-date: 158
-      note.assigned-date: 193
-  - type: table
-    name: Loveth
-    filters:
-      and:
-        - completed == false
-        - note["assigned-to"].contains(link("yohanna"))
-    groupBy:
-      property: related-project
-      direction: ASC
-    order:
-      - completed
-      - file.name
-      - status
-      - due-date
-      - assigned-date
-      - completion-date
-      - dependency
-    sort: []
-    columnSize:
-      file.name: 422
-      note.status: 126
-      note.due-date: 158
-      note.assigned-date: 193
-  - type: table
-    name: Kaseem Garba
-    filters:
-      and:
-        - completed == false
-        - note["assigned-to"].contains(link("yohanna"))
-    groupBy:
-      property: related-project
-      direction: ASC
-    order:
-      - completed
-      - file.name
-      - status
-      - due-date
-      - assigned-date
-      - completion-date
-      - dependency
-    sort: []
-    columnSize:
-      file.name: 422
-      note.status: 126
-      note.due-date: 158
-      note.assigned-date: 193
-  - type: table
-    name: Kaseem
-    filters:
-      and:
-        - completed == false
-        - note["assigned-to"].contains(link("yohanna"))
-    groupBy:
-      property: related-project
-      direction: ASC
-    order:
-      - completed
-      - file.name
-      - status
-      - due-date
-      - assigned-date
-      - completion-date
-      - dependency
-    sort: []
-    columnSize:
-      file.name: 422
-      note.status: 126
-      note.due-date: 158
-      note.assigned-date: 193
-  - type: table
-    name: CEO
-    filters:
-      and:
-        - completed == false
-        - note["assigned-to"].contains(link("yohanna"))
-    groupBy:
-      property: related-project
-      direction: ASC
-    order:
-      - completed
-      - file.name
-      - status
-      - due-date
-      - assigned-date
-      - completion-date
-      - dependency
-    sort: []
-    columnSize:
-      file.name: 422
-      note.status: 126
-      note.due-date: 158
-      note.assigned-date: 193
+
 ```
+
 
 
 
