@@ -3,18 +3,5 @@
 ---
 
 - Go back to [[+Homepage\|+Homepage]]
----
 
-
-## Task Assignments
 ----
-
-### Overdue
----
->[!quote]- linus
->[Task Assignment Form.pdf](/img/user/Task%20Assignment%20Form.pdf)
-
-### In-progress
-----
->[!quote]- Linus
-

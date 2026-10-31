@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/04-documentation/research/journal-and-manuscript-publication-guide/","tags":["in-progress","documentation/research"],"ctime":"2026-06-10T22:52:08.944+01:00","mtime":"2026-06-07T00:08:08.872+01:00","dg-note-properties":{"aliases":null,"dateCreated":"Mon, 11-05-2026, 05:02 PM","tags":["in-progress","documentation/research"],"keywords":["journal","manuscript","publication","guide"],"collection":["[[published content.base]]","[[research writing notes.base]]"]}}
+{"dg-publish":true,"permalink":"/04-documentation/research/journal-and-manuscript-publication-guide/","tags":["in-progress","documentation/research"],"dg-note-properties":{"aliases":null,"dateCreated":"Mon, 11-05-2026, 05:02 PM","tags":["in-progress","documentation/research"],"keywords":["journal","manuscript","publication","guide"],"collection":["[[published content.base]]","[[research writing notes.base]]"]}}
 ---
 
 [[writing a publication manuscript\|writing a publication manuscript]]
