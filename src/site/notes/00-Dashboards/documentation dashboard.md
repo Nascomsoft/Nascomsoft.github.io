@@ -2,21 +2,22 @@
 {"dg-publish":true,"permalink":"/00-dashboards/documentation-dashboard/","title":"🌍 Documentation Hub","tags":["in-progress","dashboard"],"dg-note-properties":{"aliases":["documentation"],"dateCreated":"Tue, 19-05-2026, 07:50 PM","tags":["in-progress","dashboard"],"banner":"[[03-Vault/Images/Banners/documentation.jpg]]","cssclasses":["full-view"],"banner-x":49,"banner-y":36,"emblem":"🌍","status":"in-progress","title":"🌍 Documentation Hub"}}
 ---
 
-- Go back to [[Homepage\|Homepage]]
+<< [[Homepage\|Homepage]]
 
 ---
->[!info] Please Read Carefully
->- This is the central location for documented workflows and processes at _NASCOMSOFT EMBEDED LTD_ 
->- Take the time to find and read information relevant to the work you do
+>[!danger] Please Read Carefully
+> This is the central location for documented workflows, procedures, and guides at **NASCOMSOFT EMBEDDED LTD**.
+> 
+> Employees are expected to read and understand the documentation relevant to their assigned responsibilities.
+> 
+> Use the sections below to find the information you need.
 ---
 
-## Project & Task Management Workflow
+## 1. Project & Task Management Workflow
 
-To improve project coordination, file accessibility, and documentation, NASCOMSOFT uses **pCloud** as a central platform for storing and sharing project resources.
+To improve project coordination, file accessibility, and documentation, NASCOMSOFT uses an online **Task Assignment Dashboard** alongside **pCloud** for project file storage and collaboration.
 
-This system allows employees to access the files needed for their assigned tasks, work independently, and submit completed deliverables for review.
-
-pCloud works alongside the company's online knowledge base / project and task management website, where employees can view their weekly assignments, and access project briefs.
+Employees can view their assigned tasks, access project information, download required resources, and submit completed work for review.
 
 _The workflow is simple:_
 
@@ -33,18 +34,39 @@ _The workflow is simple:_
 >	- [Managing pCloud Account Settings](https://help.pcloud.com/article/managing-account-settings)
 >- The same guide below is available on [[youtube\|youtube]]
 
-Learn More:
-- [[getting started with pCloud\|getting started with pCloud]]
-- [[accessing project resources\|accessing project resources]]
-- [[working on assigned tasks\|working on assigned tasks]]
-- [[submitting completed work\|submitting completed work]]
-- [[review and verification\|review and verification]]
-- [[troubleshooting\|troubleshooting]]
+**Learn More**:
 
-## Research Writing Workflow
+The following guides explain each stage of the workflow.
 
-- [[03-Vault/Documentation/Research/journal and manuscript publication guide\|journal and manuscript publication guide]]
+1. **[[Getting Started with pCloud\|Getting Started with pCloud]]** - Create your account, accept folder invitations, and understand access permissions.
+2. **[[Accessing Project Resources\|Accessing Project Resources]]** - Find project information, navigate shared folders, and download the resources you need.
+3. **[[Working on Assigned Tasks\|Working on Assigned Tasks]]** - Understand how to work with downloaded project files and prepare your deliverables.
+4. **[[Submitting Completed Work\|Submitting Completed Work]]** - Learn how to upload your deliverables to the designated submissions folder.
+5. **[[Review and Verification\|Review and Verification]]** - Understand how submitted work is reviewed, approved, and marked as completed.
+6. **[[pCloud Troubleshooting\|pCloud Troubleshooting]]** - Find solutions to common file access, download, and submission problems.
 
-## Productivity Tips
+**Additional Resources**
 
-- [[obsidian\|leveraging obsidian to improve your productivity and workflow]]
+- [[Project and Task Assignment Guide\|Project and Task Assignment Guide]]
+- [[Task Complaints and Issue Reporting\|Task Complaints and Issue Reporting]]
+- [[Project Documentation Guidelines\|Project Documentation Guidelines]]
+
+##  2. Research Writing Workflow
+
+Guidelines and resources for conducting research, preparing technical papers, and publishing academic work.
+
+**Learn More**:
+- [[03-Vault/Documentation/Research/journal and manuscript publication guide\|Journal and Manuscript Publication Guide]]
+
+## 3. Productivity Tips
+
+Practical guides and tools to help employees improve productivity, organise information, and work more efficiently.
+
+**Learn More**:
+
+- [[Leveraging Obsidian to Improve Productivity and Workflow\|Leveraging Obsidian to Improve Productivity and Workflow]]
+    
+
+---
+
+_This documentation will be updated as new workflows, procedures, and resources become available._
