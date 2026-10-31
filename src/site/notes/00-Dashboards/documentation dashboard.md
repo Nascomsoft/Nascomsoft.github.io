@@ -6,12 +6,12 @@
 
 ---
 >[!info] Please Read Carefully
->This is the central location for documented workflows at _NASCOMSOFT EMBEDED LTD_ 
->Take the time to find and read information relevant to the work you do
+>- This is the central location for documented workflows and processes at _NASCOMSOFT EMBEDED LTD_ 
+>- Take the time to find and read information relevant to the work you do
 ---
 
 ## Project & Task Management Workflow
----
+
 To improve project coordination, file accessibility, and documentation, NASCOMSOFT uses **pCloud** as a central platform for storing and sharing project resources.
 
 This system allows employees to access the files needed for their assigned tasks, work independently, and submit completed deliverables for review.
@@ -24,7 +24,6 @@ _The workflow is simple:_
 
 ---
 >[!info]- Quick Links
->- [Nascomsoft Knowledge Base](https://nascomsoft.github.io/)
 >- [Assigned Task Dashboard](https://nascomsoft.github.io/01-dashboards/tasks-assignment-dashboard/)
 >- pCloud
 >	- [pCloud Official Website](https://www.pcloud.com/)
@@ -43,9 +42,9 @@ Learn More:
 - [[troubleshooting\|troubleshooting]]
 
 ## Research Writing Workflow
----
+
 - [[03-Vault/Documentation/Research/journal and manuscript publication guide\|journal and manuscript publication guide]]
 
 ## Productivity Tips
----
+
 - [[obsidian\|leveraging obsidian to improve your productivity and workflow]]
