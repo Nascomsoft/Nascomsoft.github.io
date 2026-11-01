@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/03-vault/documentation/project-management/pcloud-workflow-and-collaboration-guide/","dg-note-properties":{"aliases":null,"tags":null,"dateCreated":"Sat, 31-10-2026, 08:19 PM","keywords":["project managment","documentation"],"emblem":"📄"}}
+{"dg-publish":true,"permalink":"/03-vault/documentation/project-management/pcloud-workflow-and-collaboration-guide/","tags":["note","completed"],"dg-note-properties":{"aliases":null,"tags":["note","completed"],"dateCreated":"Sat, 31-10-2026, 08:19 PM","keywords":["project managment","documentation"],"emblem":"📄"}}
 ---
 
 >[!info] Quick Links
@@ -27,11 +27,11 @@ _The workflow is simple:_
 **View Assignment → Access Project Folder → Download Resources → Work Locally → Upload Deliverables → Project Manager Reviews**
 
 ## 2. Getting Started with pCloud
----
+
 Every employee who requires access to project resources must have a pCloud account.
 
 ### 2.1 Creating a pCloud Account
-----
+
 If you do not already have an account:
 
 1. Visit [pCloud](https://e.pcloud.com/#/register?invite=PGwhZlmG5EX)
@@ -47,7 +47,7 @@ If you do not already have an account:
 For additional help, visit the [pCloud Help Center](https://help.pcloud.com/) or read the [Account Settings Guide](https://help.pcloud.com/article/managing-account-settings).
 
 ### 2.2 Accessing Shared Project Folders
----
+
 Access to project folders is managed by the Project Manager.
 
 Once you have been assigned to a project:
@@ -62,6 +62,24 @@ Once you have been assigned to a project:
 You will only be able to perform actions permitted by the access rights assigned to your account.
 
 For further information, see [pCloud — Invite to Folder](https://help.pcloud.com/article/invite-to-folder).
+
+
+### 2.3. File Access and Responsibilities
+
+The Project Manager controls access to shared project folders.
+
+Permissions may vary depending on the employee's responsibilities and the nature of the project.
+
+Employees are expected to:
+
+- Use only the folders and resources they have been authorized to access.
+- Avoid modifying or deleting existing project resources without authorization.
+- Keep their pCloud account credentials private.
+- Avoid sharing project files or access links with unauthorized individuals.
+- Report missing files or access difficulties to the Project Manager.
+
+The Project Manager is responsible for granting appropriate access, reviewing submissions, and organizing approved project deliverables.
+
 
 ## 3. Accessing Project Resources
 
@@ -121,6 +139,7 @@ Where multiple employees contribute to the same project, each person should focu
 ## 5. Submitting Completed Work
 
 Every project will have a **dedicated submissions folder** for receiving completed work.
+This dedicated folder link will be made available on the project brief
 
 Employees must upload their completed deliverables to this folder for verification by the Project Manager.
 
@@ -188,23 +207,8 @@ A project is not considered officially closed until its required documentation h
 
 Documentation activities may be assigned as separate tasks, depending on the project's requirements.
 
-## 7. File Access and Responsibilities
 
-The Project Manager controls access to shared project folders.
-
-Permissions may vary depending on the employee's responsibilities and the nature of the project.
-
-Employees are expected to:
-
-- Use only the folders and resources they have been authorized to access.
-- Avoid modifying or deleting existing project resources without authorization.
-- Keep their pCloud account credentials private.
-- Avoid sharing project files or access links with unauthorized individuals.
-- Report missing files or access difficulties to the Project Manager.
-
-The Project Manager is responsible for granting appropriate access, reviewing submissions, and organizing approved project deliverables.
-
-## 8. Troubleshooting
+## 7. Troubleshooting
 
 **I cannot access a project folder.**
 
