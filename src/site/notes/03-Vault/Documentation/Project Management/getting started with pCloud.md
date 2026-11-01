@@ -35,8 +35,11 @@ If you already have a pCloud account, proceed to **Section 2**.
 1. Visit the [pCloud Registration Page](https://e.pcloud.com/#/register?invite=PGwhZlmG5EX).
 2. Select the option to create a free account.
 3. Enter your email address, create a secure password, and complete the registration process.
+	![pcloud login page.png\|606](/img/user/03-Vault/Images/Documentation/pcloud%20login%20page.png)
+
 4. When asked to select a data region, choose **Europe (European Union)**.
-5. Verify your email address using the verification email sent by pCloud.
+	![pcloud - select region.jpeg\|617](/img/user/03-Vault/Images/Documentation/pcloud%20-%20select%20region.jpeg)
+5. Verify your email address using the verification email sent by pCloud.!
 6. Once registration is complete, sign in to your account through the [pCloud Web Application](https://my.pcloud.com/).
 7. Provide your registered email address to the Project Manager so you can be granted access to the appropriate project folders.
 
