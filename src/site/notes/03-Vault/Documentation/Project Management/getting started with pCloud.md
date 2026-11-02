@@ -11,7 +11,10 @@
 >- [Managing pCloud Account Settings](https://help.pcloud.com/article/managing-account-settings)
 
 ---
+>[!danger] ⚠️ PLEASE READ THE FULL INSTRUCTIONS FIRST BEFORE CLICKING ANY LINK
+>**ITS CRUCIAL YOU FOLLOW THE INSTRUCTIONS, IF YOU DON'T THE COLLABORATION FEATURES WON'T WORK**
 
+---
 ## Introduction
 
 NASCOMSOFT EMBEDDED LTD uses **pCloud** as a central platform for storing, accessing, and sharing project files and resources.
